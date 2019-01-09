@@ -16,9 +16,13 @@ img {
 	height: 35px;
 }
 
+form {
+		
+}
+
 .signup {
 	background-color: white;
-	width: 400px;
+	width: 320px;
 	border-radius: 5px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -31,16 +35,19 @@ img {
 }
 
 .signup input {
-	width: 320px;
+	width: 286px;
 	padding: 15px;
 	border: 2px solid lightgrey;
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-bottom: 15px;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 button {
-	width: 353px;
+	width: 320px;
 	height: 55px;
 	padding: 15px;
 	display: inline-block;
