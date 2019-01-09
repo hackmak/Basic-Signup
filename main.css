@@ -1,0 +1,80 @@
+* {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	margin: 0;
+	background-color: #7ba5f0; /* light periwinkle blue */
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	height: 35px;
+}
+
+.signup {
+	background-color: white;
+	width: 400px;
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+
+.signup input:invalid {
+	border: 2px solid red;
+}
+
+.signup input {
+	width: 320px;
+	padding: 15px;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+button {
+	width: 353px;
+	height: 55px;
+	padding: 15px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.submit {
+	background-color: #47d247; /* lime green */
+	border: 2px solid #47d247;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.login, .login a {
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+/* in case of different browsers */
+.signup input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+
+.signup input::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+}
+
+.signup input:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+}
+
+.signup input:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+}
